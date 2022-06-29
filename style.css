@@ -1,0 +1,60 @@
+body{
+    background-image: url('bg-img.jpg');
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+}
+.data_section{
+    margin: 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding: 40px;
+    background: linear-gradient(96deg, rgba(153, 154, 155, 0.286) 0%, rgba(173, 173, 173, 0.286) 100%);
+    border-radius: 20px;
+    border: 1px solid #000;
+}
+.data_section h1,
+.data_section p{
+    margin: 5px 0px;
+}
+.name_of_input{
+    text-transform: capitalize;
+}
+.color_set{
+    color:#78001c;
+}
+
+p{
+    font-size: 20px;
+}
+
+@media (max-width:650px) {
+    .data_section{
+        margin: 0px auto;
+        width: 80%;
+        padding: 10px;
+    }
+}
+
+
+
+
+section.hero {
+        width: 100%;
+        padding: 7.5rem 0;
+        margin-bottom: 60px;
+        text-align: center;
+        position: absolute;
+  }
+  #heart {
+    animation: .2s pulse infinite;
+  }
+  
+  @keyframes pulse {
+    50% {
+      transform:scale(2);
+    }
+  }
